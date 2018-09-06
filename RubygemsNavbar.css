@@ -1,0 +1,78 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.ruby-container {
+    border: 1px;
+    color: black;
+    text-decoration: none;
+    background-color: red;
+    margin: 0;
+    position: fixed top;
+    padding: 1em;
+}
+
+li {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    align-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.rubygems-logo {
+    background-color: white;
+    background: no-repeat center/100% url(rubygem.png);
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+#search-gems {
+    border: none;
+    margin-right: 0;
+    background-color: white;
+    border-radius: 3px 0 0 3px;
+    height: 29px;
+}
+
+#search-gems-button {
+    background: white;
+    background: no-repeat center/100% url(search.png);
+    width: 29px;
+    height: 29px;
+    padding: 5px;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    vertical-align: top;
+}
+
+.ruby-logo-image {
+    position: relative;
+    top: 2px;
+    padding-left: 16rem;
+}
+
+.ruby-container {
+    display: flex;
+}
+
+.links-list {
+    position: relative;
+    right: -12rem;
+    padding-top: 10px;
+}
+
+.searchbar {
+    padding-left: 2rem;
+    padding-top: 0.3rem;
+}
